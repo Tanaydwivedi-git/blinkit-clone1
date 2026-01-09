@@ -1,0 +1,101 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+
+    .blinkitlogo{
+        padding: 10px 8px;
+    }
+
+    .headeraddreas{
+        padding: 10px 10px;
+        font-size: 15px;
+    } 
+
+    .headeraddreas p {
+        font-size: 13px;
+    }
+
+    .searchbox button{
+        padding: 10px;
+    }
+
+    .headerbtn{
+        position: fixed;
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+        bottom: 0px;
+        background-color: white;
+    }
+    
+    /* section */
+    .bannersection{
+        display: none;
+    }
+    
+
+    .orderbanner{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .categoryItems{
+        flex-basis: 23%;
+    }
+
+    .productsection{
+        padding: 10px 10px ;
+    }
+
+    .productRow{
+        flex-wrap: wrap;
+      margin-bottom: 3px;
+       margin-top: 3px;
+   
+    }
+
+    .productItems{
+        flex-basis: 49%;
+       
+    
+    }
+    footer{
+        padding-top: 0px;
+    }
+
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .footer-mid-row1-right .categoryLink{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.footer-mid-row1-right .categoryLink ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer-mid-row3{
+    padding: 0 10px ; 
+}   
+ 
+
+.footer-mid-row2{
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
+
